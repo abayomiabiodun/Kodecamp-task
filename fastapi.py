@@ -22,7 +22,7 @@ def read_name(name: string):
 def read_age(age: int):
     return "read crud item with age {age}"
 
-@app.get("/crud/{message}")
+@app.update("/crud/{message}")
 def read_message(message: string):
     return "read crud item with message {message}"
 
